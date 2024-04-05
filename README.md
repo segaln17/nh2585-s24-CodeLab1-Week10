@@ -1,5 +1,5 @@
-# FILL IN INFO ABOUT YOUR GAME HERE. 
+# A project with queues!
 
-DO NOT LEAVE IT LIKE THIS!!!
+It's kind of like a choose your own adventure meets mad libs, sort of? You're picking what to say in whatever order you want. 
 
-Please? Please, give me content. I'm begging you. It's not that hard. Thanks.
+Still need to add more scenes with more queues for further dialogue in the scene
