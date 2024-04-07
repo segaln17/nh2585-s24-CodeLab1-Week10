@@ -26,14 +26,19 @@ public class UpdateDialogueScript : MonoBehaviour
 
     public void UpdateDialogue()
     {
-        dialogue.text = "\nGoblin: " + "'GOODBYE! \nNONE SHALL PASS LEST YOU SOLVE MY RIDDLE! \nGOOD TIDINGS!'" +
+        //when the button is pressed, update the text
+        dialogue.text = "\nGoblin: " + "\nTHIS IS MY ROAD! SCRAM!" + "\n" +
                         "\nWell. \nYou gotta go down this road one way or another.";
         
+        //set the previous button to be inactive
         dialogueButton.gameObject.SetActive(false);
+        
+        //set the button that goes to the next scene to be active
         actionButton.gameObject.SetActive(true);
         
     }
 
+    //go to the next scene
     public void ActionMove()
     {
         SceneManager.LoadScene("QueueScene");

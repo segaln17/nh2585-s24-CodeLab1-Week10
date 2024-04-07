@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/QueueScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/EndScene.unity
+    path: Assets/Scenes/SecondScene.unity
     guid: c989f93408ca01843b05d53735421475
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 4fdb884ede96b644f9440312c3f5d577
   m_configObjects: {}
